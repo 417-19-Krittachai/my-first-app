@@ -71,7 +71,7 @@ ans1 = st.text_input(
 "ข้อ 1: An 'a _ _ 1 e' a day keeps the doctor away. 🍎",
 value=st.session_state.ans1_val,
 )
-ans2 = st.text_input'('
+ans2 = st.text_input(
     "2ข้อ 2: Cats love to eat 'f _ sh. @",
 value=st.session_state.ans2_val,
 

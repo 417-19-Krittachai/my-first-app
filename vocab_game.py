@@ -48,10 +48,11 @@ if score == 2:
    st.success(" You win!")
 else:
    st.error("* You lose!")
+
+
 #
 # 1. ปุ่มเริ่มเล่นเกม
 #
-
 st.button(" เริ่มเล่นเกม", on_click=reset_game)
 
 # 2. แถบแสดงเวลานับถอยหลัง

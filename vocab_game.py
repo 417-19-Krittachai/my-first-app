@@ -45,9 +45,9 @@ else:
 st.info(f"2 ได้คะแนนรวม: {score} คะแนน")
 
 if score == 2:
-st.success(" You win!")
+   st.success(" You win!")
 else:
-st.error("* You lose!")
+   st.error("* You lose!")
 #
 # 1. ปุ่มเริ่มเล่นเกม
 #

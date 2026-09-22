@@ -57,13 +57,13 @@ st.button(" เริ่มเล่นเกม", on_click=reset_game)
 
 # 2. แถบแสดงเวลานับถอยหลัง
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
-time_left = int(30 - (time.time() - st.session_state.start))
+    time_left = int(30 - (time.time() - st.session_state.start))
 
-if time_left > 0:
-st.error(f" Z เหลือเวลา: {time_left} วินาที")
+    if time_left > 0:
+       st.error(f" Z เหลือเวลา: {time_left} วินาที")
 else:
-st.session_state.is_ended = True
-st.rerun()
+     st.session_state.is_ended = True
+     st.rerun()
 
 st.divider()
 # 3. ช่องรับคำตอบ (ใช้ value ผูกกับตัวแปรตรงๆ เพื่อสั่งเคลียร์ได้)

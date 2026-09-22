@@ -70,7 +70,7 @@ st.rerun()
 st.divider()
 # 3. ช่องรับคำตอบ (ใช้ value ผูกกับตัวแปรตรงๆ เพื่อสั่งเคลียร์ได้)
 ans1 = st.text_input(
-"2ia 1: An "a _ _ 1 e' a day keeps the doctor away.
+"ข้อ 1: An "a _ _ 1 e' a day keeps the doctor away.
 value=st.session_state.ans1_val,
 
 ans2 = st.text_input(

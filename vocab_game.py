@@ -27,7 +27,7 @@ st.session_state.is_ended = False # ilø Dialog
 def show_result_dialog(ans1, ans2):
 st.balloons() 
 score = 0
-@st.dialog("llu_ans1= ans1.strip().lower()
+("llu_ans1= ans1.strip().lower()
 u_ans2 = ans2.strip().lower()
 
 # ตรวจข้อ 1

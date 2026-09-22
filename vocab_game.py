@@ -32,11 +32,8 @@ u_ans2 = ans2.strip().lower()
 
 # ตรวจข้อ 1
 if u_ans1 == "apple":
-ข้อ 1: ถูกต้อง")
-
-st. success("
+st. success("  ข้อ 1: ถูกต้อง")
 score += 1
-
 else:
 st.error(f"X ข้อ 1: ยังไม่ถูกต้อง (คุณตอบ '{u_ans1} )")
 # ตรวจข้อ 2

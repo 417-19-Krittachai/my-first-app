@@ -17,11 +17,8 @@ def reset_game():
     st.session_state.is_ended = False # ปิด Dialog
 
 #
-
+#*ฟังก์ชัน MessageBox (Dialog)
 #
-
-*ฟังก์ชัน MessageBox (Dialog)
-
 @st.dialog("สรุปผลการเล่นเกม")
 def show_result_dialog(ans1, ans2):
 st.balloons() 

@@ -72,7 +72,7 @@ ans1 = st.text_input(
 value=st.session_state.ans1_val,
 )
 ans2 = st.text_input(
-"2ia 2: Cats love to eat 'f _ sh. @",
+    "2ข้อ 2: Cats love to eat 'f _ sh. @",
 value=st.session_state.ans2_val,
 
 # อัปเดตค่าล่าสุดเข้าตัวแปร
